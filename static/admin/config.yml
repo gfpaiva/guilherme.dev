@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: gfpaiva/portfolio-agnes
+  repo: gfpaiva/guilherme.dev
 
 media_folder: static/images
 public_folder: /images
