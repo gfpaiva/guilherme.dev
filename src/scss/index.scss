@@ -1,0 +1,57 @@
+@import './root';
+@import './fonts';
+@import './helpers';
+
+/*
+ * Vendors Imports
+ */
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+@import '~normalize.css/normalize.css';
+
+html,
+body {
+	background-color: $secondary-color;
+	color: $text-color;
+	font: normal normal 1em/1.5 $fontFamily;
+	width: 100%;
+}
+
+*,
+:after,
+:before {
+	box-sizing: border-box
+}
+
+::selection {
+	background: $primary-color;
+	color: $secondary-color;
+}
+
+a {
+	color: $primary-color;
+	text-decoration: none;
+}
+
+
+.container {
+	max-width: $container;
+	width: 90%;
+	margin: 0 auto;
+	padding: 30px 0;
+
+	// @media screen and (max-width: 767px) {
+	// 	padding: 30px 0;
+	// }
+}
+
+.text-container {
+	max-width: $textContainer;
+}
+
+
+.fluid-img {
+	width: 100%;
+	height: auto;
+	display: block;
+}

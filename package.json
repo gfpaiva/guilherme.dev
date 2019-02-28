@@ -1,0 +1,59 @@
+{
+  "name": "guilhermedev",
+  "description": "Guilherme Paiva",
+  "version": "0.1.0",
+  "author": "Guilherme Paiva <gf.paiva@yahoo.com.br>",
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gfpaiva/guilherme.dev"
+  },
+  "bugs": {
+    "url": "https://github.com/gfpaiva/guilherme.dev/issues"
+  },
+  "keywords": [
+    "gatsby",
+    "netlify",
+    "netlify-cms",
+    "react"
+  ],
+  "scripts": {
+    "start": "npm run develop",
+    "clean": "rimraf .cache public",
+    "build": "npm run clean && gatsby build",
+    "develop": "npm run clean && gatsby develop",
+    "serve": "gatsby serve",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^2.1.19",
+    "gatsby-image": "^2.0.30",
+    "gatsby-plugin-netlify": "^2.0.11",
+    "gatsby-plugin-netlify-cms": "^3.0.12",
+    "gatsby-plugin-react-helmet": "^3.0.7",
+    "netlify-cms": "^2.5.1",
+    "normalize.css": "^8.0.1",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-helmet": "^5.2.0",
+    "react-slick": "^0.23.2",
+    "rfs": "^8.0.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "gatsby-plugin-manifest": "^2.0.20",
+    "gatsby-plugin-no-sourcemaps": "^2.0.2",
+    "gatsby-plugin-offline": "^2.0.24",
+    "gatsby-plugin-purgecss": "^3.1.0",
+    "gatsby-plugin-sass": "^2.0.10",
+    "gatsby-plugin-sharp": "^2.0.23",
+    "gatsby-source-filesystem": "^2.0.23",
+    "gatsby-transformer-remark": "^2.3.0",
+    "gatsby-transformer-sharp": "^2.1.15",
+    "node-sass": "^4.11.0",
+    "prettier": "^1.16.4",
+    "rimraf": "^2.6.3"
+  }
+}
